@@ -1,0 +1,51 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 705624bda0ef0b938b0d8cb6ef4195548f563714 Build.PL
+SHA1 d0851dc5d399d8eb47b387198243b6ede2bf05cc Changes
+SHA1 486bc34cef7d5d09102babb26e5a529b040ff9c8 LICENSE
+SHA1 4461ebbf4c848a131958b420ff8563e479304d96 MANIFEST
+SHA1 35d98e1f51ca00910df6c0008b8b65498bf2f65f META.json
+SHA1 a478721d8c331d70c666cf95f60fad54d1973f47 dist.ini
+SHA1 f745365baeaa8b2ba59ec03f1750387355124844 lib/Daemon/Shutdown/Monitor/transmission.pm
+SHA1 9bd468e8c87b34681593290db6f72f049aeacb59 t/00-compile.t
+SHA1 b0f2ac0b28f663d98de8369e26c2dc3fd3d4e52d xt/author/critic.t
+SHA1 3f8a0a01395cf0ffb2f264d208b5ad4390e4261b xt/perlcriticrc
+SHA1 e560d373352b9d4def0c1a22dd2bfdae31bb8c69 xt/perltidyrc
+SHA1 28ef20a73b7cf9b85585e2b7db6fc80424289134 xt/release/cpan-changes.t
+SHA1 f1df216d28e5f464bc6b68faf0b85cc0e38c7246 xt/release/kwalitee.t
+SHA1 7b52b909acf6cd52733f8f226f92147ed76a2717 xt/release/meta-json.t
+SHA1 e9a889d6b725ee070e06aae1a8ad544495322cb2 xt/release/pod-coverage.t
+SHA1 8e07652488f690f87894a492defe0a50c5c021a9 xt/release/pod-linkcheck.t
+SHA1 76430bdd89b1a5d3a4f6c988b3e059c11f41a026 xt/release/pod-no404s.t
+SHA1 9934d36e45e1143c1a54658bc48872e0591af41b xt/release/pod-syntax.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iQIcBAEBAgAGBQJOoeZYAAoJEOpmRc2kYGBPqFQQALAwL1IQzZYGaNqcpL1sS3Vo
+lhDGtJlm9lTwCZXeKLxXMzr7mWWiBG+4jZmpOSl/Xb4EviQJpzuiAp7u60B7SMPX
+jKSu3o1UsyhTDc20fksvdYN7Vdro8hIKjCjtbMF7qHi78zcVl/6Wme9PfLEJGLDU
+Z6Ldo3gi+LjQ58bAl9C/a45pDdMrZnjArWpkUH5OqlAJW5fG6lAHX7BjNirAFQiz
+t4Md9pP2q6ukT5avo4yP/mf+VfvoA41sEvlsnNT9QUPXEf69WQehY535i131ymoU
+PozmHXrsYhf/dFO7sYs2mY+jc0VEwHW6KEQvuIWHC4TwIRgzI0j0UYSBEGh41Zh5
+MdiqtLRyyYP61aW0u5rmp0fZOlIeOK+JKWrqcZajmqZo10EfnPKo11AsVNE5zvF5
+GcJIZeqmtsvxlQ+iHRCRJMpaeoqFe5D8BFhgOh1KPnCwFcAaTTUCjkmXHtsJCYZa
+kWuOjCt3uPD/fGIqV5DBg0b64h2L6e4E4SXEqdXrZpTVLdUkjlz0l2evYnekMyi8
+7fHCh21mL0JErYj5yUE5K6b2HAIoL6OW4uubrfB7mgmAqOjYw3y5KpPX2xr9AHW2
+91ID7DNN2Z74JuHHf5b9cMq5s5bqabdVGdTbCKDtRUlYpKTfSNNSZfYFMVd5VzSA
+XaUry8coS/JHzn1du7nK
+=FETv
+-----END PGP SIGNATURE-----
