@@ -6,6 +6,7 @@ META.json
 META.yml
 SIGNATURE
 dist.ini
+dist.ini~
 lib/Daemon/Shutdown/Monitor/transmission.pm
 lib/Daemon/Shutdown/Monitor/transmission.pm~
 t/00-compile.t

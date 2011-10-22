@@ -1,6 +1,6 @@
 package Daemon::Shutdown::Monitor::transmission;
 {
-    $Daemon::Shutdown::Monitor::transmission::VERSION = '0.002';
+    $Daemon::Shutdown::Monitor::transmission::VERSION = '0.003';
 }
 
 # ABSTRACT: Daemon::Shutdown monitor plugin which checks for active transmission downloads
@@ -156,7 +156,7 @@ Daemon::Shutdown::Monitor::transmission - Daemon::Shutdown monitor plugin which 
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head3 Example configuration
 
