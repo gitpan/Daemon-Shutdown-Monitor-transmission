@@ -1,7 +1,4 @@
 package Daemon::Shutdown::Monitor::transmission;
-{
-    $Daemon::Shutdown::Monitor::transmission::VERSION = '0.002';
-}
 
 # ABSTRACT: Daemon::Shutdown monitor plugin which checks for active transmission downloads
 
@@ -148,39 +145,16 @@ sub run {
 
 1;
 
-=pod
-
-=head1 NAME
-
-Daemon::Shutdown::Monitor::transmission - Daemon::Shutdown monitor plugin which checks for active transmission downloads
-
-=head1 VERSION
-
-version 0.002
+__END__
 
 =head3 Example configuration
-
- monitor:
-   transmission:
-     trigger_time: 1800
-     loop_sleep: 360
-     count_seeding: 1
-     url: http://localhost:9091
-     username: rpcusername
-     password: rpcpassword
-
-=head1 AUTHOR
-
-Ioan Rogers <ioan.rogers@gmail.com>
-
-=head1 COPYRIGHT AND LICENSE
-
-This software is Copyright (c) 2011 by Ioan Rogers.
-
-This is free software, licensed under:
-
-  The Artistic License 2.0 (GPL Compatible)
-
+ 
+monitor:
+  transmission:
+    trigger_time: 1800
+    loop_sleep: 360
+    count_seeding: 1
+    url: http://localhost:9091
+    username: rpcusername
+    password: rpcpassword
 =cut
-
-__END__

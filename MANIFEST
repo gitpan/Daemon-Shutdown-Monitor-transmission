@@ -3,9 +3,11 @@ Changes
 LICENSE
 MANIFEST
 META.json
+META.yml
 SIGNATURE
 dist.ini
 lib/Daemon/Shutdown/Monitor/transmission.pm
+lib/Daemon/Shutdown/Monitor/transmission.pm~
 t/00-compile.t
 xt/author/critic.t
 xt/perlcriticrc
