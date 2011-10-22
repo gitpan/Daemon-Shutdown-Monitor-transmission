@@ -57,7 +57,7 @@
          "web" : "https://github.com/ioanrogers/daemon-shutdown-monitor-transmission"
       }
    },
-   "version" : "0.003",
+   "version" : "0.004",
    "x_BuiltWith" : {
       "modules" : {
          "Daemon::Shutdown" : "0.07",

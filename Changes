@@ -1,6 +1,15 @@
 Revision History for Daemon-Shutdown-Monitor-transmission
 =========================================================
 
+v0.004 2011-10-22
+-----------------
+
+commit 4ff18e477a9d4f8e8bbb678bab5795e65ce57f99
+Author: Ioan Rogers <ioan.rogers@gmail.com>
+Date:   Sat Oct 22 14:30:24 2011 -0700
+
+    Really fixed github updating in dist.ini
+
 v0.003 2011-10-22
 -----------------
 

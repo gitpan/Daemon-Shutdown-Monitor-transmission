@@ -20,7 +20,7 @@ my %module_build_args = (
     "Ioan Rogers <ioan.rogers\@gmail.com>"
   ],
   "dist_name" => "Daemon-Shutdown-Monitor-transmission",
-  "dist_version" => "0.003",
+  "dist_version" => "0.004",
   "license" => "artistic_2",
   "module_name" => "Daemon::Shutdown::Monitor::transmission",
   "recommends" => {},
